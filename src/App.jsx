@@ -7,6 +7,8 @@ import Home from './pages/Home'
 import Admission from './pages/AdmissionPage'
 
 import './App.css'
+import ChatbotComponent from './components/Chatbot/ChatbotComponents'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -19,6 +21,10 @@ const App = () => {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/admission" element={<Admission/>} />
         </Routes>
+        <div>
+          <ChatbotComponent/>
+          
+        </div>
       </Router>
       
     
@@ -29,6 +35,7 @@ const App = () => {
 
 
     </div>
+    
   )
 }
 export default App
