@@ -36,11 +36,20 @@
 }
 
 /* Hamburger Icon */
-.hamburger {
+/* .hamburger {
   display: none;
   font-size: 2rem;
   color: white;
   cursor: pointer;
+} */
+
+.hamburger {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: all 0.3s ease;
 }
 
 /* Responsive Styles */
