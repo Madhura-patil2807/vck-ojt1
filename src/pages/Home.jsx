@@ -9,6 +9,7 @@ const  Home = () => {
     return (
         <div>
             <Header/>
+            <></>
             <img id="ss" src="/vcklogo.png"/> 
             <div className="over">
             <h1>Welcome to Vivekanand college!</h1>

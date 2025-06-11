@@ -6,7 +6,7 @@ import Footer from "../components/Footer/Footer";
 const About = () => {
   return (
     <div>
-      <header>
+      <Header/>
         <h1 className="container">About Vivekanand College</h1>
         <p>
           Vivekanand College stands as a beacon of knowledge and integrity, committed to delivering transformative
@@ -17,7 +17,7 @@ const About = () => {
         <p>
           Our vision is to empower students with critical thinking skills, a global perspective, and a strong sense of social responsibility. We aim to nurture individuals who are not only successful in their careers but also contributing members of society.
         </p>
-      </header>
+    
 
       <section>
         <h2 id="count">Our Mission</h2>

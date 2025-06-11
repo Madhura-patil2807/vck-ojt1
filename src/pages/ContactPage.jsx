@@ -5,6 +5,7 @@ import Footer from '../components/Footer/Footer'
 const Contact = () => {
     return (
         <div>
+          <Header/>
             <h1 className="contact-title">Contact Us</h1>
       <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
 

@@ -8,6 +8,7 @@ const Admission = () => {
     return (
 
         <div>
+            <Header/>
             <h1 id="title">Admissions at Vivekanand College</h1>
             <p>Welcome to the Admissions page of Vivekanand College! We are delighted you're considering joining our vibrant academic community. Our admission process is designed to be straightforward and accessible.</p>
 
