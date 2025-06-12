@@ -1,4 +1,4 @@
-/* .navbar {
+.navbar {
   background-color: #0080ff;
   display: flex;
   justify-content: space-between;
@@ -7,45 +7,15 @@
   flex-wrap: wrap;
   position: relative;
   align-content: center;
-} */
-
-
-.navbar {
-  background-color: #007BFF;
-  /* Primary blue background */
-  color: white;
-  padding: 15px 20px;
-  display: flex;
-  justify-content: space-between;
-  /* Space out college name and nav */
-  align-items: center;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  /* Make header sticky */
-  top: 0;
-  z-index: 999;
-  /* Ensure header is above other content */
 }
-/* 
+
+
+
+
 .logo {
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
-} */
-
-.college-name {
-  font-size: 1.8em;
-  font-weight: bold;
-}
-
-.college-name a {
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.college-name a:hover {
-  color: #E0E0E0;
 }
 
 .nav-links {
@@ -69,20 +39,11 @@
 }
 
 /* Hamburger Icon */
-/* .hamburger {
+.hamburger {
   display: none;
   font-size: 2rem;
   color: white;
   cursor: pointer;
-} */
-
-.hamburger {
-  display: block;
-  width: 30px;
-  height: 3px;
-  background-color: white;
-  margin: 6px 0;
-  transition: all 0.3s ease;
 }
 
 /* Responsive Styles */
@@ -90,13 +51,13 @@
   .hamburger {
     display: block;
   }
-/* 
+
   .nav-links {
     flex-direction: column;
     width: 100%;
     margin-top: 1rem;
     display: none;
-  } */
+  }
 
   .nav-links.active {
     display: flex;
@@ -132,12 +93,3 @@
   /* Ensure it's above the drawer if needed */
 }
 
-
-.hamburger-icon {
-  display: block;
-  width: 30px;
-  height: 3px;
-  background-color: white;
-  margin: 6px 0;
-  transition: all 0.3s ease;
-}
