@@ -14,6 +14,10 @@ const Header = () => {
                 <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>&#9776;</div>
             
                 <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
+                <span className="hamburger-icon"></span>
+                <span className="hamburger-icon"></span>
+                <span className="hamburger-icon"></span>
+
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/courses">Courses</Link>

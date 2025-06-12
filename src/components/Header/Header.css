@@ -57,13 +57,13 @@
   .hamburger {
     display: block;
   }
-
+/* 
   .nav-links {
     flex-direction: column;
     width: 100%;
     margin-top: 1rem;
     display: none;
-  }
+  } */
 
   .nav-links.active {
     display: flex;
@@ -81,3 +81,30 @@
   }
 }
 
+
+  .nav-links {
+    display: block;
+    /* Show hamburger on mobile */
+  }
+
+  .nav-links {
+  display: none;
+  /* Hide on desktop */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  z-index: 1002;
+  /* Ensure it's above the drawer if needed */
+}
+
+
+.hamburger-icon {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: all 0.3s ease;
+}
